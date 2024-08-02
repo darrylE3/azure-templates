@@ -10,7 +10,7 @@ param sqlAdminUsername string = '${environment}-${projectName}'
 param sqlAdminPassword string
 
 @secure()
-param sendgridApiKey string = ''
+param sendgridApiKey string
 param serverFarmName string = 'dev-elevator3-windows-plan'
 param serverFarmResourceGroupName string = 'dev-elevator3-apps'
 param netFrameworkVersion 'v6.0' | 'v8.0' = 'v6.0'
