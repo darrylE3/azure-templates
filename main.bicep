@@ -47,5 +47,4 @@ module appService 'app-service.bicep' = {
     serverFarmName: serverFarmName
     serverFarmResourceGroupName: serverFarmResourceGroupName
   }
-  dependsOn: [storageAccount, sql]
 }
